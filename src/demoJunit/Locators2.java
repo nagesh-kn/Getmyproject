@@ -46,7 +46,7 @@ class Locators2 {
 		driver.get("https://www.google.com/");
 		Thread.sleep(2000);
 		driver.findElement(By.className("gLFyf")).sendKeys("yui");
-		Thread.sleep(2000);
+		Thread.sleep(4000);
 	//	driver.findElement(By.linkText("Gmail")).click();
 		Thread.sleep(2000);
 		driver.findElement(By.partialLinkText("Gma")).click();
@@ -58,7 +58,7 @@ class Locators2 {
 		driver.get("https://www.facebook.com/");
 		Thread.sleep(2000);
 		driver.findElement(By.id("email")).sendKeys("nani");
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		driver.findElement(By.name("pass")).sendKeys("hut");
 		Thread.sleep(2000);
 		driver.findElement(By.cssSelector("#u_0_5_tq")).click();
