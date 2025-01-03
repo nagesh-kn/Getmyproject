@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-31T14:00:01 IST" name="Default suite" finished-at="2024-12-31T14:00:12 IST" duration-ms="10705">
+    <groups>
+    </groups>
+    <test started-at="2024-12-31T14:00:01 IST" name="Default test" finished-at="2024-12-31T14:00:12 IST" duration-ms="10705">
+      <class name="screenshot.TimeFormateScreenshot">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:screenshot.TimeFormateScreenshot@5824a83d]" started-at="2024-12-31T14:00:01 IST" name="beforeTest" finished-at="2024-12-31T14:00:03 IST" duration-ms="1989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="Screenshort()[pri:0, instance:screenshot.TimeFormateScreenshot@5824a83d]" started-at="2024-12-31T14:00:03 IST" name="Screenshort" finished-at="2024-12-31T14:00:12 IST" duration-ms="8666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Screenshort -->
+      </class> <!-- screenshot.TimeFormateScreenshot -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
