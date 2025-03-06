@@ -37,7 +37,7 @@ public class Bugscreenshot {
   @Test
   public void google() throws InterruptedException, IOException {
 	  driver.get("https://www.google.com/");
-	  Thread.sleep(2000);
+	  Thread.sleep(3000);
 	  Screenshot();
 	  driver.findElement(By.xpath("//*[@name='q']")).sendKeys("Chittoor"+Keys.ENTER);
 	  Thread.sleep(2000);
