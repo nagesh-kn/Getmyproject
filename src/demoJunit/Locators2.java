@@ -32,11 +32,11 @@ class Locators2 {
 	@Test
 	void idname() throws InterruptedException {
 		driver.get("https://www.facebook.com/");
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		driver.findElement(By.id("email")).sendKeys("hjk");
 		Thread.sleep(2000);
 		driver.findElement(By.name("pass")).sendKeys("bnm");
-		Thread.sleep(2000);
+		Thread.sleep(6000);
 		
 		
 	}
